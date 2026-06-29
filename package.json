@@ -1,6 +1,1 @@
-{
-  "name": "hugo-hangar",
-  "private": true,
-  "scripts": { "build": "echo prebuilt", "start": "serve -s public -l ${PORT:-3000}" },
-  "dependencies": { "serve": "^14.2.3" }
-}
+{ "name": "hugo-hangar", "private": true, "scripts": { "build": "mkdir -p dist && cp -r public/* dist/ 2>/dev/null || cp index.html dist/ 2>/dev/null || true" } }
