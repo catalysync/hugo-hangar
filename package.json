@@ -1,0 +1,6 @@
+{
+  "name": "hugo-hangar",
+  "private": true,
+  "scripts": { "build": "echo prebuilt", "start": "serve -s public -l ${PORT:-3000}" },
+  "dependencies": { "serve": "^14.2.3" }
+}
